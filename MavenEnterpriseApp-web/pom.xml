@@ -96,12 +96,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>ACADA Learning Releases Nexus Repository</name>
-	      <url>http://localhost:8085/ACADA Learning/repository/flipkart-releases/</url>
+	      <url>http://172.31.3.67:8000/repository/enterprise-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name> ACADA Learning Snapshot Nexus Repository </name>
-	      <url>http://localhost:8085/ACADALearning/repository/flipkart-snapshot/</url>
+	      <url>http://172.31.3.67:8000/repository/enterprise-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
