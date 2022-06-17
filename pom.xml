@@ -20,5 +20,16 @@
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
-  
+ <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>ACADA Learning Releases Nexus Repository</name>
+	      <url>http://172.31.3.67:8000/repository/enterprise-release/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name> ACADA Learning Snapshot Nexus Repository </name>
+	      <url>http://172.31.3.67:8000/repository/enterprise-snapshot/</url>
+	    </snapshotRepository>
+</distributionManagement> 
 </project>
